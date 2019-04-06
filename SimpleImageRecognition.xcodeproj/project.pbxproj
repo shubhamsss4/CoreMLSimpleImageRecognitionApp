@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5149621F2258A0A7002C4AB0 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5149621D2258A001002C4AB0 /* Inceptionv3.mlmodel */; };
 		517DE031224E5C550095E334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517DE030224E5C550095E334 /* AppDelegate.swift */; };
 		517DE033224E5C550095E334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517DE032224E5C550095E334 /* ViewController.swift */; };
 		517DE036224E5C550095E334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517DE034224E5C550095E334 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5149621D2258A001002C4AB0 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		517DE02D224E5C550095E334 /* SimpleImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517DE030224E5C550095E334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		517DE032224E5C550095E334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		517DE02F224E5C550095E334 /* SimpleImageRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				5149621D2258A001002C4AB0 /* Inceptionv3.mlmodel */,
 				517DE030224E5C550095E334 /* AppDelegate.swift */,
 				517DE032224E5C550095E334 /* ViewController.swift */,
 				517DE034224E5C550095E334 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				517DE033224E5C550095E334 /* ViewController.swift in Sources */,
+				5149621F2258A0A7002C4AB0 /* Inceptionv3.mlmodel in Sources */,
 				517DE031224E5C550095E334 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
